@@ -1,0 +1,13 @@
+# Core Machine Learning & Data Handling
+tensorflow
+tensorflow-model-optimization
+pandas
+numpy
+scikit-learn
+
+# Required by Pandas for reading .xlsx files
+openpyxl
+
+# Interactive Dashboard & Plotting
+streamlit
+plotly
