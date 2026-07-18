@@ -87,7 +87,7 @@ Through aggressive QAT optimization, the model achieves a massive reduction in m
 | :--- | :--- |
 | **Original TF32 Model Size** | `~ 100 KB` |
 | **Quantized INT8 Payload** | **`~ 4 KB`** |
-| **Compression Ratio** | **`> 95% Reduction` ⚡** |
+| **Compression Ratio** | **`> 98% Reduction` ⚡** |
 
 ---
 
