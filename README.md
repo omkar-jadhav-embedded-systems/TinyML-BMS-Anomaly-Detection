@@ -29,6 +29,15 @@ Below is a real-time demonstration of the end-to-end MLOps pipeline. **Click the
 
 [![TinyML BMS Demo Video](.github/assets/thumbnail.png)](https://raw.githubusercontent.com/omkar-jadhav-embedded-systems/TinyML-BMS-Anomaly-Detection/main/demo/Demo_QAT.mp4)
 
+### Phase 1: Live Quantization-Aware Training (QAT)
+The first phase involves training a neural network autoencoder using Quantization-Aware Training. This technique minimizes accuracy loss while aggressively compressing the model for microcontroller deployment, achieving a **>98% reduction** in size from 343KB to just 4KB.
+
+![Live QAT Dashboard](demo/QAT_demo.jpg)
+
+### Phase 2: Industrial-Grade Performance Evaluation
+After training, the compressed INT8 model is rigorously evaluated against test data. The dashboard provides a detailed performance report, including critical metrics like Precision and Recall, and a visual error map to diagnose False Positives and ensure production readiness.
+
+![Industrial Evaluation Dashboard](demo/Evaluation_QAT.jpg)
 ---
 
 ## 🧠 System Architecture
