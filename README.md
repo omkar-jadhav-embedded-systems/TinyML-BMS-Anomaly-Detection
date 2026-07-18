@@ -23,6 +23,14 @@ This project bridges the gap by pushing intelligence directly to the hardware.
 
 ---
 
+### 📺 Live MLOps Pipeline Walkthrough
+Below is a real-time demonstration showing the Streamlit industrial dashboard executing Quantization-Aware Training, evaluating telemetry anomalies, and auto-compiling the 4KB C++ binary:
+
+<video src="demo/Demo_QAT.mp4" width="100%" controls>
+  Your browser does not support the video tag.
+</video>
+
+---
 ## 🧠 System Architecture
 
 ```mermaid
