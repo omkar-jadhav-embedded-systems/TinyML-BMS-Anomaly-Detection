@@ -24,13 +24,13 @@ This project bridges the gap by pushing intelligence directly to the hardware.
 ---
 
 ### 📺 Live MLOps Pipeline Walkthrough
-Below is a real-time demonstration showing the Streamlit industrial dashboard executing Quantization-Aware Training, evaluating telemetry anomalies, and auto-compiling the 4KB C++ binary:
 
-<video src="demo/Demo_QAT.mp4" width="100%" controls>
-  Your browser does not support the video tag.
-</video>
+Below is a real-time demonstration of the end-to-end MLOps pipeline. **Click the image below to play the video.**
+
+[![TinyML BMS Demo Video](.github/assets/thumbnail.png)](https://raw.githubusercontent.com/omkar-jadhav-embedded-systems/TinyML-BMS-Anomaly-Detection/main/demo/Demo_QAT.mp4)
 
 ---
+
 ## 🧠 System Architecture
 
 ```mermaid
