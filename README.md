@@ -23,11 +23,16 @@ This project bridges the gap by pushing intelligence directly to the hardware.
 
 ---
 
-### 📺 Live MLOps Pipeline Walkthrough
+### 📺 Live System Demonstrations
 
-Below is a real-time demonstration of the end-to-end MLOps pipeline. **Click the image below to play the video.**
+Below are the video demonstrations for both the MLOps pipeline and the live firmware execution. **Click on the links below to play the videos:**
 
-[![TinyML BMS Demo Video](.github/assets/thumbnail.png)](https://raw.githubusercontent.com/omkar-jadhav-embedded-systems/TinyML-BMS-Anomaly-Detection/main/demo/Demo_QAT.mp4)
+#### 🚀 1. MLOps Pipeline & Training Walkthrough
+[![Play Demo Video](https://img.shields.io/badge/PLAY-VIDEO_DEMO-red?style=for-the-badge&logo=youtube&logoColor=white)](https://raw.githubusercontent.com/omkar-jadhav-embedded-systems/TinyML-BMS-Anomaly-Detection/main/demo/Demo_QAT.mp4)
+
+#### 🔌 2. Firmware Execution & DSP Filtering
+[![Play Firmware Video](https://img.shields.io/badge/PLAY-FIRMWARE_DEMO-blue?style=for-the-badge&logo=c%2B%2B&logoColor=white)](https://raw.githubusercontent.com/omkar-jadhav-embedded-systems/TinyML-BMS-Anomaly-Detection/main/demo/Firmware_demo_video.mp4)
+---
 
 ### Phase 1: Live Quantization-Aware Training (QAT)
 The first phase involves training a neural network autoencoder using Quantization-Aware Training. This technique minimizes accuracy loss while aggressively compressing the model for microcontroller deployment, achieving a **>98% reduction** in size from 343KB to just 4KB.
