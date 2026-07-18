@@ -38,6 +38,11 @@ The first phase involves training a neural network autoencoder using Quantizatio
 After training, the compressed INT8 model is rigorously evaluated against test data. The dashboard provides a detailed performance report, including critical metrics like Precision and Recall, and a visual error map to diagnose False Positives and ensure production readiness.
 
 ![Industrial Evaluation Dashboard](demo/Evaluation_QAT.jpg)
+
+### Phase 3: Edge Deployment & Real-Time DSP Filtering (C++)
+The finalized 4KB `INT8` model is flashed directly onto the microcontroller. This phase demonstrates the bare-metal C++ firmware in action. A continuous sliding-window **Digital Signal Processing (DSP) filter** smooths incoming raw telemetry to eliminate sensor jitter. The filtered signals are fed into the TinyML inference engine, which accurately flags sustained anomalies in real-time, completely offline.
+
+![Firmware Execution and DSP Filtering](demo/Firmware_working.jpg)
 ---
 
 ## 🧠 System Architecture
